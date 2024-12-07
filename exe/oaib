@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+#
+# Example:
+#
+#   oaib list
+#
+#   oaib retrieve --batch-id __BATCH_ID__
+#
+
+# require "./lib/oaib.rb"
+require "oaib"
+
+Oaib::CLI.start(*ARGV)
